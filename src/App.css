@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.aboutMe {
+  display: flex;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0px 16px 16px;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  background-color:antiquewhite;
+  }
+
+  .column-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px 16px;
+    width: 240px;
+    background:#FFC9A8;
+  }
+
+  .photeName{
+    text-align: center;
+    border-top: 3px solid #B55C24;
+    border-bottom: 3px solid #B55C24;
+ }
+.photeName  img{
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+  border-radius: 60px;
+  }
+.photeName h2{
+  font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  line-height: 32px;  
+  color: #111111;
+
+}
+
+.quote{
+  margin-bottom: 20px;
+  border-bottom: 3px solid #B55C24;
+}
+.quote p{
+  font-family: 'Roboto', sans-serif;
+  font-size:large;
+  text-align: center;
+}
+.part h2 ,.part h2  {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #B55C24;
+  margin-top: -1px;
+}
+.contact{
+  margin-bottom: 10px;
+  padding-left: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.contact a{
+  text-decoration: none;
+  color: black;
+}
+.contact a:hover{
+  color: #B55C24;
+
+}
+.icon{
+  margin-right: 10px;
+  color: #000000;
+  font-size: "1.3em";
+}
+
+
+.column-2 ,.column-3{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px 16px ;
+  background:#ffffff;
+  width: 348px;
+}.column-3{
+  /* background-image: url("https://i.pinimg.com/564x/79/bb/32/79bb321ba07ecf808f73435065be8494.jpg"); */
+}
+
+.subtitle  h2 ,.subtitle h2{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 7px;
+  border-top: 3px solid #B55C24;
+  border-bottom: 3px solid #B55C24;
+}
+.subtitle p{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.allHobbies{  
+  display: flex;
+  flex-wrap: wrap;
+}
+.hobbie{
+  min-width: 100px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(199, 192, 192);
+  border-radius: 30px;
+}
+.hobbie h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+}
+.Award{
+  display: flex;
+  flex-direction: row;
+}
+ul {  list-style-type: "⭐";
+}
+ul li{
+  margin-bottom:  15px ;
+  padding-left: 15px;
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  background-color: #FFC9A8;
+  margin-bottom:10px ;
+
+}
+
+.card .card-img{
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+}
+
+.card .content {
+  margin-left: 10px;
+}
+
